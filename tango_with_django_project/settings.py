@@ -27,8 +27,6 @@ SECRET_KEY = '88atid^fyvewp#tcaji@h#!7%bz!rg0dj3i@5+%#^n0^d=j2%z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -40,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rango',
-    'registration',
+    'django_registration',
 ]
 
 MIDDLEWARE = [
@@ -74,7 +72,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
-ALLOWED_HOSTS = ['CSimmonsCS.pythonanywhere.com']
+ALLOWED_HOSTS = ['CSimmonsCS.pythonanywhere.com', '127.0.0.1']
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases

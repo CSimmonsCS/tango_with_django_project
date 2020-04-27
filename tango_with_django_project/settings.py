@@ -74,6 +74,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'tango_with_django_project.wsgi.application'
 
+ALLOWED_HOSTS = ['CSimmonsCS.pythonanywhere.com']
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
